@@ -1,0 +1,21 @@
+# dependencies & local env
+node_modules
+.env
+.env.*
+*.local
+*.pem
+*secret*
+*apikey*
+.fuyao_key
+
+# logs / editor
+logs
+*.log
+npm-debug.log*
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+
+# do not ignore dist/ — the built site is part of the delivery
+dist-ssr
